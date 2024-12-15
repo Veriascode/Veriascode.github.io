@@ -1,0 +1,266 @@
+<!--todos los botones seles agregara funcion en un futuro-->
+<!DOCTYPE html>
+    <html lang="es">
+
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title> libros y mangas.com</title> 
+  
+</head>
+  
+
+<body> 
+ 
+  <div>
+    <strong>HORARIOS DE ATENCION</strong>
+  <table border="simple,1">
+    <tr>
+      <th>dias de atencion al cliente</th>
+      <td>lunes-miercoles</td>
+      <td>jueves-viernes</td>
+      <td>sabado</td>
+    </tr>
+    <tr>
+      <th>horario de atencion al cliente</th>
+      <td>8 AM-1 PM</td>
+      <td>7 AM-3 PM</td>
+      <td>9 AM-12 PM</td>
+    </tr>
+  </table>
+  </div>
+  
+  
+  <form action="/submit" method="POST">
+    <label for="idioma">elije un idioma</label>
+    <select id="idioma" name="idioma">
+      <option value="opcion 1">español</option>
+      <option value="opcion 2">ingles</option>
+      <option value="opcion 3"> portugües</option>
+     </select>
+    <input type="submit" value="enviar">
+  </form>
+  
+    <h2>formulario de contacto</h2>
+    <form action="#" method="POST">
+      <div>
+      <label for="nombre"> escribe tu nombre</label>
+      <input type="text" id="nombre"placeholder="escribe tu nombre">
+      </div>
+      
+      <div>
+      <label for="correo"> correo electronico:</label>
+      <input type="email" id="correo" placeholder="escribe tu correo o gmail">
+      </div>
+      
+      <div>
+      <label for="pasword">escribe tu contraseña:</label>
+      <input type="pasword" id="pasword" placeholder="escribe tu contraseña">
+      </div>
+      
+      <div>
+        <label for="edad"> escribe con tu edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="escribe tu edad" min="18" max="99">
+         
+      </div>
+      <button type="submit"> enviar</button>
+    </form>
+    
+  <nav>
+  <p style="color: red".
+paragraph.>    menu de navegacion rapida</p>
+  <ul> 
+    <li><a href="#compra-de-todos-los-productos">comprar todos los articulos</a></li>
+    <li><a href="#mangas">ver mangas disponibles</a></li>
+    <li><a href="#libros">ver libros disponibles</a></li>
+  </ul>
+  </nav>
+  <header>
+    
+    <main>
+  <h1>bienvenido a libros y mangas</h1>
+    <p>ecuentra libros y mangas a los mejores precios</p>
+    </header>
+   
+  <p>si desea comprar todos nuestros articulos directamente haga clic aqui:
+   <a href="#compra-de-todos-los-productos">ir a sección de compra de todos los articulos</a> 
+  </p>
+  
+   <!--sección de libros-->
+     
+    <section id="libros">
+    
+    <h2>libros disponibles</h2>
+    
+  <article>
+    <h3><i>el ocaso y las estrellas</i></h3>
+  
+    <img src="https://i.postimg.cc/76xvvZB4/file-Dcn3qk-Lyjr-DD1-Nmwmtt-Gvy-1.webp" alt="portada de el ocaso y las estrellas" width="200">
+            
+    <p><strong>describción:</strong> es una reflexión hacia la vida y la muerte<br>
+     <em>mk no soy escritor</em> y <em> ps no soy escritor XD </em> no hay presupuesto pa la pagina :'(</p>
+      
+    <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.abretelibro.com/foro/&ved=2ahUKEwjI1cC62pCKAxWqD1kFHShaFb0QFnoECB0QAQ&usg=AOvVaw2R2_x9bwD-i-p164hmAeri"
+        target="_blank"> conocer mas autores y libros en abrete libro.com</a>
+    
+    <p><strong>costo de 20.00$COP</strong><br>
+    <em>10% de descuento</em></p>
+     
+    <button onclick="mostrarAlerta()">conprar ahora</button>
+    <script>
+    function mostrarAlerta() {
+     alert (gracias pro tu compra);
+    }
+     </script>
+    </article>
+   
+   <article>
+    <h3><u>reflexion final</u></h3>
+      
+    <img src="https://i.postimg.cc/9MJhZ9xG/20220323-180616.jpg" alt="portada de el ultimo suspiro por aquella mujer" width="200">
+    <p><strong>describción:</strong> mani no soy escritor weon<em>
+    ¿que px juan ?</em></p>
+      
+    <a href="https://pixabay.com/es/photos/%C3%A1rbol-%C3%A1rbol-de-hoja-caduca-paisaje-8411271/" target="_blank"> ir a ver imagen de portada</a>
+      
+    <p><strong>costo 30.000$COP</strong><br>
+    <strong>5% de descuento</strong></p>
+     
+    <button onclick="mostrarAlerta()">comprar ahora</button>
+     <script>
+     function mostrarAlerta() {
+       alert (gracias por tu compra);
+     }</script>
+   </article>      
+  </section>
+  
+  <!--sección de mangas a continuación-->
+  
+  <section id="mangas">
+    
+    
+    <h2>mangas disponibles</h2>
+    
+    <form action="/submit" method="POST">
+      <label for="catalogos">elije un catalogo</label>
+      <select id="catalogos"  name="catalogos">
+        <option value="opcion 1">terror</option>
+        <option value="opcion 2">isekai</option>  
+        <option value="opcion 3">accion</option>        
+      </select>
+      <input  type="submit"  value="enviar">
+    </form>
+        
+      
+  <article>  
+    <h3><i>naruto op 3</i></h3>
+    <img src="https://i.postimg.cc/VL9jvsgp/images.jpg" alt="portada maga de naruto op 3">
+      
+    <p><strong>introduccion:</strong><i>nose que px pero weno</i></p>
+    <a href="https://es.wikipedia.org/wiki/Naruto" 
+    target="_blank"> ir a la pagina de naruto</a>
+    
+    <iframe
+      width="320"
+      height="315"
+      src="https://www.youtube.com/embed/Ty0egvicdq0?autoplay=1&control=1&end=90"
+      allowfullcreen>
+    </iframe>
+    
+      <p><strong>costo de 40.000$COP</strong><br> 
+      <strong>5% de descuento</strong></p>
+              
+      <button onclick="mostrarAlerta()">comprar ahora</button>
+    <script>
+    function mostrarAlerta() {
+      alert ('gracias por tu compra');
+      }
+    </script>
+  </article>
+    
+  <article>
+      
+   <h3><i>que ma mada</i></h3> 
+      
+     <img src="https://i.postimg.cc/kMj7qkQ5/file-NBr-Pg2fd-Rrw-Trq-CVb-Ec-Nf9-4.webp" alt="portada de que ma mada" width="200">
+      
+     <p><strong>introducción:</strong>sabra usted <em>porque yo no</em></p>
+     <p><strong>costo de 39.000$COP</strong><br>
+     <strong>10% de descuento</strong></p>
+     <button onclick="mostrarMensaje('gracias')">comprar ahora</button>
+    
+    <script>
+    function mostrarMensaje() {
+    alert ("hasecho una compra ");
+    }
+    </script>
+      
+   </article>
+ </section>
+    
+    <!--sección de lista de productos 
+     y compra de paquete completo-->
+    
+    <section id="compra-de-todos-los-productos">
+      
+    <h2>comprar todos los articulos</h2>
+      
+  <ol>      
+   <li><i>libro 1</i></li>
+   <li><i>libro 2</i></li>
+   <li><i>manga 1</i></li>
+   <li><i>manga 2</i></li>
+  </ol>
+          
+          
+   <p><strong>si desea comprar todos los artculos como un solo paquete</strong></p>
+      
+   <p><strong>costo 120.000$COP</strong><br>
+   <strong> 25% de descuento</strong></p>
+      
+    <button onclick="mostrarAlerta()">comprar ahora</button>
+      <script>
+      function mostrarAlerta(){
+        alert ("gracias por tu compra");
+      }
+      </script>
+       
+      <form action="/submit"   method="POST">
+        <label for="experiencia">califica tu experienxia</label>
+        <select id="experiencia" name="experencia">
+          <option value="mala">mala</option>
+          <option value="puede-mejorar">puede mejorar</option>
+          <option value="buena">buena</option>
+        </select>
+        <input type="submit" value="enviar">
+        
+      </form>             
+  </section>
+    
+    <table style="border:solid">
+      <tr>
+        <td style="border:solid">hola c1</td>
+        <td style="border:solid"> hola c2</td>
+      </tr>
+      <tr>
+        <td style="border:solid"> c3</td>
+        <td style="border:solid"> c4</td>
+      </tr>
+    </table>
+    
+    
+  </main>
+  
+    <!--pie de la pagina-->
+    
+  <footer>
+      <p>contacto <a href="ejemplo de correo@gmail.com">
+      ejemplo de correo</a></p>
+      <p>&copy; 2024 libros y mangas. Todos los derechos
+      reservados</p>
+ </footer>
+           
+ </body>
+    
+</html>
